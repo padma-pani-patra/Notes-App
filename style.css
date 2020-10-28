@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1200px;
+    padding: 0 20px;
+    text-align: center;
+}
+h1{
+   font-size: 3rem; 
+    
+}
+section #new-note{
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+.input-container  #input{
+    padding: 10px;
+    
+}
+.input-container #add{
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    outline: 0;
+    border:0;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.view-container{
+    display: flex;
+    text-align: left;
+    
+    
+}
+.views{
+    width: 100%;
+    border:1px solid black;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.view-details{
+    background-color: blue;
+    color: white;
+    border:0;
+    outline: 0;
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.data-container{
+    height: 100vh;
+    width: 100vw;
+    position:absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(220,220,220,0.5);
+    text-align: left;
+}
+
+.totaldata{
+    width:75vw;
+    height: 30vh;;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:white;
+    color: black;
+    box-shadow:   -3px -3px 10px 0px rgba(250,250,250,0.60),
+	              3px 3px 10px 0px  rgba(189,189,189,0.25);
+    padding: 30px;
+    
+}
+
+.delete{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin:10px 0px;
+    border:0;
+    outline: 0;
+    width: 100px;
+    height: 50px;
+}
